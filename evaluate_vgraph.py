@@ -16,3 +16,12 @@ def consume(work):
     (target_id, vg, t_trips) = work
     cvg_score, pvg_score, nvg_score = triplet_match_exact(vg, t_trips)
     return (target_id, vg, cvg_score, pvg_score, nvg_score)
+
+x = input()
+
+if x == '':
+    print("a")
+# elif x == '':
+#     print("b")
+else:
+    print("c")
