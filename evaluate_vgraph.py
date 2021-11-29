@@ -44,3 +44,13 @@ def try():
     #     print("b")
     else:
         print("c")
+
+        
+        
+x = input()
+if x == '':
+    print("a")
+# elif x == '':
+#     print("b")
+else:
+    print("c")
