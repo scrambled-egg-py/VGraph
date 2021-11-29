@@ -16,12 +16,31 @@ def consume(work):
     (target_id, vg, t_trips) = work
     cvg_score, pvg_score, nvg_score = triplet_match_exact(vg, t_trips)
     return (target_id, vg, cvg_score, pvg_score, nvg_score)
+    # random comment
+    
+class A:
+        # random comment
+    # random comment
 
-x = input()
+    def try():
+        x = input()
+        if x == '':
+                # random comment
 
-if x == '':
-    print("a")
-# elif x == '':
-#     print("b")
-else:
-    print("c")
+            print("a")
+        # elif x == '':
+            # random comment
+
+        #     print("b")
+        else:
+            print("c")
+
+            
+def try():
+    x = input()
+    if x == '':
+        print("a")
+    # elif x == '':
+    #     print("b")
+    else:
+        print("c")
